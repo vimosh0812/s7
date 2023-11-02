@@ -1,0 +1,108 @@
+/* Google Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #f3f3f3;
+}
+
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+ .nav-links li a{
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+
+}
+ .nav-links li a:hover{
+   color:#fdb347;
+ }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+  
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 2px solid #fdb347;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  } 
+  
+
+  .footer-bottom{
+    /* background: #000; */
+    width: 100%;
+    /* padding: 20px; */
+    /* padding-bottom: 40px; */
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 1px solid #fdb347;
+    
+    }
+
+    #vmosh {
+        color: #f4f4f4b4;
+        
+    }
